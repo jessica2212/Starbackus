@@ -1,0 +1,133 @@
+body
+{
+    margin: 0px;
+}
+/* TOPO DA PAGINA */
+
+.topo-verde
+{
+    background-color: darkgreen;
+    height: 10px;
+    
+}
+
+.conteudo
+{
+    height: 103px;
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.logo img
+{
+    height: 64px;
+    width: 64px;
+    padding-top: 10px;
+}
+
+.logo a
+{
+    margin-left: 120px;
+    
+}
+
+.container-loupe
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.formulario-pesquisa
+{
+    display: flex;
+}
+
+.formulario-pesquisa input
+{
+    font-size: 16px;
+    padding: 0px 0px 0px 10px;
+    max-width: 250px;
+    height: 36px;
+    border: 1px solid black;
+}
+
+.formulario-pesquisa button
+{
+    background-color: transparent;
+    margin-left: -28px;
+    border: 0px;
+    margin-top: 3px;
+    
+}
+
+.formulario-pesquisa button img
+{
+    width: 16px;
+    height: 16px;
+}
+
+
+.formulario-pesquisa #botao
+{
+  margin-right: -10px;
+}
+
+.container-menu
+{
+    margin-right: 250px;
+}
+
+.container-menu img
+{
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+    margin-left: 30px;
+}
+
+
+
+
+/* SEGUNDA PARTE -- PARTE DOS COPOS  */
+
+.container-copo
+{
+    background-image: url(bg.copo.jpg);
+    height: 700px;
+}
+
+
+
+/* IPAD OU PC */
+
+@media (max-width:700px)
+{
+    .formulario-pesquisa input
+    {
+        width: 80px;
+    }
+    
+    .logo
+    {
+        padding-right: 20px;
+    }
+}
+
+
+
+/* CELULAR */
+
+@media (max-width: 400px) 
+{
+    .formulario-pesquisa input
+    {
+        width: 90px;
+    }
+
+    .logo
+    {
+        padding-right: 20px;
+    }
+}
